@@ -1,0 +1,49 @@
+# KnowledgeBrain API Dependencies
+# Python 3.11+
+
+# Web Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# Configuration
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+
+# LLM & AI
+anthropic==0.42.0
+sentence-transformers==3.3.1
+torch==2.5.1
+
+# RAG Framework
+llama-index-core==0.12.12
+llama-index-readers-file==0.4.4
+
+# Vector Database
+qdrant-client==1.12.1
+
+# Knowledge Graph
+neo4j==5.27.0
+
+# Agents
+langgraph==0.2.60
+
+# Document Processing
+pdfplumber==0.11.4
+openpyxl==3.1.5
+pandas==2.2.3
+
+# Cache / Memory
+redis==5.2.1
+
+# HTTP Client
+httpx==0.28.1
+
+# Utilities
+python-dateutil==2.9.0
+uuid6==2024.7.10
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.25.0
+httpx==0.28.1
