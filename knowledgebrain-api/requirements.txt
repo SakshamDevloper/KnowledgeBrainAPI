@@ -13,7 +13,7 @@ python-dotenv==1.0.1
 # LLM & AI
 anthropic==0.42.0
 sentence-transformers==3.3.1
-torch==2.5.1
+torch==2.12.1
 
 # RAG Framework
 llama-index-core==0.12.12
